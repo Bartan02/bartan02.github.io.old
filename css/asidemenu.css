@@ -1,0 +1,25 @@
+.blue1{
+    background-color: #0951BD;
+}
+.blue2{
+    background-color: #06367D;
+}
+.blue3{
+    background-color: #002B6B;
+}
+.blue4{
+    background-color: #0B62E3;
+}
+.blue5{
+    background-color: #031A3D;
+}
+.blue6{
+    background-color: #020E21;
+}
+.blue1, .blue2, .blue3, .blue4, .blue5, .blue6{
+    text-align: center;
+}
+.blue1 a, .blue2 a, .blue3 a, .blue4 a, .blue5 a, .blue6 a{
+    color: white;
+    text-decoration: none;
+}
