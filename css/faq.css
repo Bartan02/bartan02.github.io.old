@@ -1,0 +1,15 @@
+h3::before{
+    content: 'Q:';
+}
+p::before{
+    content: 'A:';
+}
+article{
+    margin-top: 1rem;
+}
+.tab-walkthrough{
+    background-color: lightgray;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+}

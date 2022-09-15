@@ -1,0 +1,11 @@
+.go-to-blog-button{
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 1.5rem;
+    display: block;
+    width: fit-content;
+}
+.go-to-blog-button:hover{
+    cursor: pointer;
+    color: lightgray;
+}
