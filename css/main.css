@@ -1,6 +1,9 @@
 .set-min-height{
     min-height: 77vh;
 }
+nav{
+    height: fit-content;
+}
 .profile{
     text-align: center;
 }
@@ -11,4 +14,11 @@
 }
 .footer-icon{
     width: 2rem;
+}
+@media screen and (min-width: 768px){
+    nav{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 50px;
+    }
 }
