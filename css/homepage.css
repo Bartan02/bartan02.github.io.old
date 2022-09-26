@@ -1,0 +1,9 @@
+.pictures-box{
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+}
+.pictures-box img{
+    width: 50%;
+}
