@@ -18,6 +18,10 @@
 }
 .blue1, .blue2, .blue3, .blue4, .blue5, .blue6{
     text-align: center;
+    transition: filter 0.2s;
+}
+.blue1:hover, .blue2:hover, .blue3:hover, .blue4:hover, .blue5:hover, .blue6:hover{
+    filter: contrast(150%);
 }
 .blue1 a, .blue2 a, .blue3 a, .blue4 a, .blue5 a, .blue6 a{
     color: white;

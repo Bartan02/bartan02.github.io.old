@@ -1,3 +1,13 @@
+.menu-ul{
+    list-style: square;
+    font-size: 1.5rem
+}
+.menu-ul > li > a{
+    color: white;
+}
+.menu-ul > li > a:hover{
+    color: lightgray;
+}
 .pictures-box{
     justify-content: center;
     align-items: stretch;

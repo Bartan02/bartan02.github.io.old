@@ -4,6 +4,7 @@
     margin-bottom: 1.5rem;
     display: block;
     width: fit-content;
+    transition: color 0.2s;
 }
 .go-to-blog-button:hover{
     cursor: pointer;
