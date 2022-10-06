@@ -1,12 +1,15 @@
+/* Question/Answer information */
 h3::before{
     content: 'Q:';
 }
 p::before{
     content: 'A:';
 }
+/* Top margin between articles */
 article{
     margin-top: 1rem;
 }
+/* Walk-through styling */
 .tab-walkthrough{
     background-color: lightgray;
     margin: 0.5rem;

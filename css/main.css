@@ -1,9 +1,12 @@
+/* Setting minimum height to the main part of the page in order not to leave blank (white) part on the page */
 .set-min-height{
     min-height: 77vh;
 }
+/* Setting navigation height only to necessary */
 nav{
     height: fit-content;
 }
+/* Profile image styling */
 .profile{
     text-align: center;
 }
@@ -12,12 +15,14 @@ nav{
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+/* Footer icons styling */
 .footer-icon{
     width: 2rem;
 }
 img[alt="hz"]{
     margin-right: 0.5rem;
 }
+/* Stickiness of navigation menu in bigger devices */
 @media screen and (min-width: 768px){
     nav{
         position: sticky;
@@ -25,7 +30,7 @@ img[alt="hz"]{
         top: 50px;
     }
 }
-
+/* Lack of text in footer in smaller devices */
 @media screen and (max-width: 768px){
     footer{
         font-size: 0px;

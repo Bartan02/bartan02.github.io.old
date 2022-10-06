@@ -1,3 +1,4 @@
+/* Color palette for aside menu */
 .blue1{
     background-color: #0951BD;
 }
@@ -16,6 +17,7 @@
 .blue6{
     background-color: #020E21;
 }
+/* Aside menu buttons properties */
 .blue1, .blue2, .blue3, .blue4, .blue5, .blue6{
     text-align: center;
     transition: filter 0.2s;
@@ -27,6 +29,7 @@
     color: white;
     text-decoration: none;
 }
+/* Stickiness of menu in bigger devices and normal positioning in smaller devices */
 aside{
     width: 100%;
     margin: 0;
