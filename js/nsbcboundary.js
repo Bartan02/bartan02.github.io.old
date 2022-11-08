@@ -14,19 +14,7 @@ let passedArray = new Array();
  * Function which reads and filters the dashboard in regard to passed exams.
  */
 function readData(){
-    const dashboardTable = document.getElementById("dashboard").childNodes[3].childNodes;
-    let arrayIterator = 0;
-    for (let dashboardRowIterator = 1; dashboardRowIterator < dashboardTable.length; dashboardRowIterator += 2){
-        creditsArray.push(Number(dashboardTable[dashboardRowIterator].childNodes[7].textContent));
-        passedArray.push(dashboardTable[dashboardRowIterator].childNodes[11].textContent);
-        if(passedArray[arrayIterator] === `YES`);
-        else{
-            creditsArray.splice(arrayIterator,1);
-            passedArray.splice(arrayIterator,1);
-            arrayIterator--;
-        }
-        arrayIterator++;
-    }
+    const dashboardTable = document.getElementsByTagName("input");
 }
 
 /**

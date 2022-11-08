@@ -1,0 +1,8 @@
+td{
+    border-bottom: gray solid 1px;
+    border-top: gray solid 1px;
+}
+td > input{
+    width: 50px;
+    color: white;
+}
